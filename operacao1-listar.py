@@ -1,7 +1,3 @@
-from idlelib.debugobj_r import remote_object_tree_item
-
-from select import select
-
 from operecoesbd import *
 
 conexao = criarConexao('localhost', 'root' , '1234' , 'locadora_lessandro')
