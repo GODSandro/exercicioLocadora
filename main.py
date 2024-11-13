@@ -1,16 +1,32 @@
-# This is a sample Python script.
+from menu import *
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+opcao = 1
 
+from operecoesbd import *
+conexao = criarConexao('localhost', 'root' , '1234' , 'locadora_lessandro')
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+while opcao !=6:
 
+    print(" \n1 » Listar \n2 » Adicinoar \n3 » Pesquisar \n4 » Remover \n5 » Quantidade \n6 » Sair \n")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+    opcao = int (input("Digite a sua opção: "))
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    if opcao == 1:
+        listarFilmes(filmes)
+
+    elif opcao == 2:
+        adicinarFilmes()
+
+    elif opcao == 3:
+        pesquisarCodigoFilme()
+
+    elif opcao == 4:
+        removerFilme()
+
+    elif opcao == 5:
+        quantidadeFilme()
+
+    elif opcao != 6:
+        print('Sair')
+
+print('Obrigado por usar nosso software')

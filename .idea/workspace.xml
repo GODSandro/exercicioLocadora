@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f3fbc37-a876-4819-8940-1fb6bebda866" name="Changes" comment="primeiro commit">
+    <list default="true" id="6f3fbc37-a876-4819-8940-1fb6bebda866" name="Changes" comment="2 commit">
+      <change afterPath="$PROJECT_DIR$/menuOld.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operacao1-listar.py" beforeDir="false" afterPath="$PROJECT_DIR$/operacao1-listar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operacao4-remover.py" beforeDir="false" afterPath="$PROJECT_DIR$/operacao4-remover.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,32 +46,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.menu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operacao1-listar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operacao2-inserir.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operacao3-pesquisar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operacao4-remover.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operacao5-qauntidade.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/Meu Drive/Python/locadoLessandro&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.menu.executor": "Run",
+    "Python.operacao1-listar.executor": "Run",
+    "Python.operacao2-inserir.executor": "Run",
+    "Python.operacao3-pesquisar.executor": "Run",
+    "Python.operacao4-remover.executor": "Run",
+    "Python.operacao5-qauntidade.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Program Files/JetBrains/PyCharm 2024.2.3/plugins/Dicionario ptBr pycharm/pt_BR.dic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\Meu Drive\Python\locadoLessandro" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.operacao4-remover">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="locadoLessandro" />
       <option name="ENV_FILES" value="" />
@@ -211,10 +214,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.menu" />
         <item itemvalue="Python.operacao4-remover" />
         <item itemvalue="Python.operacao5-qauntidade" />
         <item itemvalue="Python.operacao1-listar" />
-        <item itemvalue="Python.menu" />
         <item itemvalue="Python.operacao3-pesquisar" />
       </list>
     </recent_temporary>
@@ -227,7 +230,7 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="C:\Program Files\JetBrains\PyCharm 2024.2.3\plugins\Dicionario ptBr pycharm" CustomDictionaries="1" CustomDictionary0="C:\Program Files\JetBrains\PyCharm 2024.2.3\plugins\Dicionario ptBr pycharm\pt_BR.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6f3fbc37-a876-4819-8940-1fb6bebda866" name="Changes" comment="" />
@@ -239,6 +242,11 @@
       <workItem from="1730917724208" duration="1503000" />
       <workItem from="1730919256054" duration="8133000" />
       <workItem from="1730931520752" duration="684000" />
+      <workItem from="1730932608212" duration="1284000" />
+      <workItem from="1731022094086" duration="768000" />
+      <workItem from="1731351344035" duration="666000" />
+      <workItem from="1731440264665" duration="282000" />
+      <workItem from="1731522116042" duration="5016000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro commit">
       <option name="closed" value="true" />
@@ -248,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730925572706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2 commit">
+      <option name="closed" value="true" />
+      <created>1730932888725</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730932888725</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,25 +272,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="primeiro commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="2 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/locadoLessandro$main.coverage" NAME="main Coverage Results" MODIFIED="1731529834566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/locadoLessandro$operacao3_pesquisar.coverage" NAME="operacao3-pesquisar Coverage Results" MODIFIED="1730922832543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/locadoLessandro$operacao1_listar.coverage" NAME="operacao1-listar Coverage Results" MODIFIED="1730931635911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/locadoLessandro$operacao5_qauntidade.coverage" NAME="operacao5-qauntidade Coverage Results" MODIFIED="1730932140966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/locadoLessandro$menu.coverage" NAME="menu Coverage Results" MODIFIED="1730925818314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/locadoLessandro$operacao4_remover.coverage" NAME="operacao4-remover Coverage Results" MODIFIED="1730931715537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/locadoLessandro$menu.coverage" NAME="menu Coverage Results" MODIFIED="1730932991918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/locadoLessandro$operacao4_remover.coverage" NAME="operacao4-remover Coverage Results" MODIFIED="1730932792695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/locadoLessandro$operacao2_inserir.coverage" NAME="operacao2-inserir Coverage Results" MODIFIED="1730922316643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
