@@ -1,7 +1,6 @@
 from operecoesbd import *
-conexao = criarConexao('localhost', 'root' , '1234' , 'locadora_lessandro')
 
-def listarFilmes(filmes):
+def listarFilmes(conexao):
         filmes = listarBancoDados(conexao, 'select * from filmes')
 
         if len(filmes) > 0:
@@ -11,7 +10,7 @@ def listarFilmes(filmes):
         else:
             print("Não existe filmes à exibir")
 
-def adicinarFilmes(nomeFilme,sinopseFilme,anoFilme):
+def adicinarFilmes(conexao):
         nomeFilme = input('Digite o nome do filme: ')
         sinopseFilme = input('Digite a sinopse do filme: ')
         anoFilme = input('Digite o ano do filme: ')
@@ -22,7 +21,7 @@ def adicinarFilmes(nomeFilme,sinopseFilme,anoFilme):
         insertNoBancoDados(conexao, consultaInserir, valores)
         print('Filme inserido com sucesso!')
 
-def pesquisarCodigoFilme():
+def pesquisarCodigoFilme(conexao):
         codigoPesquisa = int(input("Digite o código: "))
         consultaListar = 'select * from filmes where codigo = %s'
         dados = [codigoPesquisa]
@@ -34,7 +33,7 @@ def pesquisarCodigoFilme():
         else:
             print('Não existe filme pra o codigo informado!')
 
-def removerFilme():
+def removerFilme(conexao):
         codigoRemover = int(input('digite o codigo para remover: '))
 
         consultaRemover = 'delete from filmes where codigo = %s'

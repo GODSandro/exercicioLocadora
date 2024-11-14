@@ -1,8 +1,8 @@
 from menu import *
+from operecoesbd import *
 
 opcao = 1
 
-from operecoesbd import *
 conexao = criarConexao('localhost', 'root' , '1234' , 'locadora_lessandro')
 
 while opcao !=6:
@@ -12,16 +12,16 @@ while opcao !=6:
     opcao = int (input("Digite a sua opção: "))
 
     if opcao == 1:
-        listarFilmes(filmes)
+        listarFilmes(conexao)
 
     elif opcao == 2:
-        adicinarFilmes()
+        adicinarFilmes(conexao)
 
     elif opcao == 3:
-        pesquisarCodigoFilme()
+        pesquisarCodigoFilme(conexao)
 
     elif opcao == 4:
-        removerFilme()
+        removerFilme(conexao)
 
     elif opcao == 5:
         quantidadeFilme()
@@ -29,4 +29,7 @@ while opcao !=6:
     elif opcao != 6:
         print('Sair')
 
+
 print('Obrigado por usar nosso software')
+
+encerrarConexao(conexao)
